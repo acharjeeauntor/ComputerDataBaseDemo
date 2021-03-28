@@ -8,6 +8,8 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
       <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001"/>
+      <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002"/>
+      <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

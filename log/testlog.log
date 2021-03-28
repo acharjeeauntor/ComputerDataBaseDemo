@@ -2,3 +2,30 @@
 2021-03-28 10:07:28,123 - ComputerDatabase -INFO - TC_AC_001 passed
 2021-03-28 10:08:45,928 - ComputerDatabase -INFO - URL is opened
 2021-03-28 10:08:49,768 - ComputerDatabase -INFO - TC_AC_001 passed
+2021-03-28 18:34:29,134 - ComputerDatabase -INFO - URL is opened
+2021-03-28 18:34:33,142 - ComputerDatabase -INFO - TC_AC_001 passed
+2021-03-28 18:34:37,425 - ComputerDatabase -INFO - URL is opened
+2021-03-28 18:34:40,085 - ComputerDatabase -INFO - Providing Input...
+2021-03-28 18:34:44,107 - ComputerDatabase -INFO - TC_AC_002 passed
+2021-03-28 18:34:48,567 - ComputerDatabase -INFO - URL is opened
+2021-03-28 18:34:51,237 - ComputerDatabase -INFO - Providing Input...
+2021-03-28 18:34:55,474 - ComputerDatabase -INFO - Validation Start...
+2021-03-28 18:34:58,239 - ComputerDatabase -INFO - TC_AC_003 failed
+2021-03-28 18:40:31,256 - ComputerDatabase -INFO - URL is opened
+2021-03-28 18:40:35,073 - ComputerDatabase -INFO - TC_AC_001 passed
+2021-03-28 18:40:39,254 - ComputerDatabase -INFO - URL is opened
+2021-03-28 18:40:41,894 - ComputerDatabase -INFO - Providing Input...
+2021-03-28 18:40:45,758 - ComputerDatabase -INFO - TC_AC_002 passed
+2021-03-28 18:40:50,060 - ComputerDatabase -INFO - URL is opened
+2021-03-28 18:40:52,694 - ComputerDatabase -INFO - Providing Input...
+2021-03-28 18:40:56,458 - ComputerDatabase -INFO - Validation Start...
+2021-03-28 18:40:59,327 - ComputerDatabase -INFO - TC_AC_003 failed
+2021-03-28 18:45:20,573 - ComputerDatabase -INFO - URL is opened
+2021-03-28 18:45:24,362 - ComputerDatabase -INFO - TC_AC_001 passed
+2021-03-28 18:45:29,228 - ComputerDatabase -INFO - URL is opened
+2021-03-28 18:45:31,958 - ComputerDatabase -INFO - Providing Input...
+2021-03-28 18:45:36,105 - ComputerDatabase -INFO - TC_AC_002 passed
+2021-03-28 18:45:41,456 - ComputerDatabase -INFO - URL is opened
+2021-03-28 18:45:44,109 - ComputerDatabase -INFO - Providing Input...
+2021-03-28 18:45:48,126 - ComputerDatabase -INFO - Validation Start...
+2021-03-28 18:45:50,870 - ComputerDatabase -INFO - TC_AC_003 failed

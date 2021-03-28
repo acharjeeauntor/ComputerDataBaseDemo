@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.437 sec - in TestSuite
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 38.104 sec <<< FAILURE! - in TestSuite
+SearchComputerName(com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003)  Time elapsed: 3.167 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003.SearchComputerName(TC_AC_003.java:40)
+
