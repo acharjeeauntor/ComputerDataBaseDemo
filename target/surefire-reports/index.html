@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">11 methods, 3 failed,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -105,6 +105,16 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-ComputerDatabaseDemo" title="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003" class="method navigator-link" hash-for-method="SearchComputerName">SearchComputerName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ComputerDatabaseDemo" title="com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003" class="method navigator-link" hash-for-method="SearchComputerNewName">SearchComputerNewName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ComputerDatabaseDemo" title="com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001" class="method navigator-link" hash-for-method="deleteComputerInfo">deleteComputerInfo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-ComputerDatabaseDemo -->
@@ -131,6 +141,31 @@
                         <a href="#" panel-name="suite-ComputerDatabaseDemo" title="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003" class="method navigator-link" hash-for-method="addComputerWithValidInput">addComputerWithValidInput</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ComputerDatabaseDemo" title="com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001" class="method navigator-link" hash-for-method="editComputerInfo">editComputerInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ComputerDatabaseDemo" title="com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002" class="method navigator-link" hash-for-method="editComputerWithInvalidInput">editComputerWithInvalidInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ComputerDatabaseDemo" title="com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003" class="method navigator-link" hash-for-method="editComputerWithValidInput">editComputerWithValidInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ComputerDatabaseDemo" title="com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001" class="method navigator-link" hash-for-method="searchByEmptyField">searchByEmptyField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ComputerDatabaseDemo" title="com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002" class="method navigator-link" hash-for-method="searchByValidInput">searchByValidInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-ComputerDatabaseDemo -->
                   </li>
                 </ul>
@@ -143,6 +178,46 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-ComputerDatabaseDemo" class="panel ComputerDatabaseDemo">
+          <div class="suite-ComputerDatabaseDemo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchComputerNewName">
+                  </a> <!-- SearchComputerNewName -->
+                  <span class="method-name">SearchComputerNewName</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003.SearchComputerNewName(TC_EC_003.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ComputerDatabaseDemo-class-failed -->
+          <div class="suite-ComputerDatabaseDemo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteComputerInfo">
+                  </a> <!-- deleteComputerInfo -->
+                  <span class="method-name">deleteComputerInfo</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001.deleteComputerInfo(TC_DC_001.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ComputerDatabaseDemo-class-failed -->
           <div class="suite-ComputerDatabaseDemo-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
@@ -166,6 +241,21 @@
           <div class="suite-ComputerDatabaseDemo-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editComputerInfo">
+                  </a> <!-- editComputerInfo -->
+                  <span class="method-name">editComputerInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ComputerDatabaseDemo-class-passed -->
+          <div class="suite-ComputerDatabaseDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -181,6 +271,51 @@
           <div class="suite-ComputerDatabaseDemo-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editComputerWithValidInput">
+                  </a> <!-- editComputerWithValidInput -->
+                  <span class="method-name">editComputerWithValidInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ComputerDatabaseDemo-class-passed -->
+          <div class="suite-ComputerDatabaseDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editComputerWithInvalidInput">
+                  </a> <!-- editComputerWithInvalidInput -->
+                  <span class="method-name">editComputerWithInvalidInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ComputerDatabaseDemo-class-passed -->
+          <div class="suite-ComputerDatabaseDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByValidInput">
+                  </a> <!-- searchByValidInput -->
+                  <span class="method-name">searchByValidInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ComputerDatabaseDemo-class-passed -->
+          <div class="suite-ComputerDatabaseDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -189,6 +324,21 @@
                   <a name="addComputerWithInvalidInput">
                   </a> <!-- addComputerWithInvalidInput -->
                   <span class="method-name">addComputerWithInvalidInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ComputerDatabaseDemo-class-passed -->
+          <div class="suite-ComputerDatabaseDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByEmptyField">
+                  </a> <!-- searchByEmptyField -->
+                  <span class="method-name">searchByEmptyField</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -227,6 +377,12 @@
       &lt;class name=&quot;com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001&quot;/&gt;
       &lt;class name=&quot;com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002&quot;/&gt;
       &lt;class name=&quot;com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003&quot;/&gt;
+      &lt;class name=&quot;com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001&quot;/&gt;
+      &lt;class name=&quot;com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001&quot;/&gt;
+      &lt;class name=&quot;com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002&quot;/&gt;
+      &lt;class name=&quot;com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003&quot;/&gt;
+      &lt;class name=&quot;com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001&quot;/&gt;
+      &lt;class name=&quot;com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ComputerDatabaseDemo Test --&gt;
 &lt;/suite&gt; &lt;!-- ComputerDatabaseDemo --&gt;
@@ -240,7 +396,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ComputerDatabaseDemo Test (3 classes)</span>
+                <span class="test-name">ComputerDatabaseDemo Test (9 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -266,28 +422,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addComputerWithInvalidInput')
-data.setCell(0, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002')
-data.setCell(0, 3, 6876);
+data.setCell(0, 1, 'addComputerWithValidInput')
+data.setCell(0, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003')
+data.setCell(0, 3, 13203);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addComputerWithValidInput')
-data.setCell(1, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003')
-data.setCell(1, 3, 6629);
+data.setCell(1, 1, 'addComputerWithInvalidInput')
+data.setCell(1, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002')
+data.setCell(1, 3, 11054);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addComputerWithEmptyField')
-data.setCell(2, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001')
-data.setCell(2, 3, 3773);
+data.setCell(2, 1, 'editComputerWithInvalidInput')
+data.setCell(2, 2, 'com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002')
+data.setCell(2, 3, 9707);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'SearchComputerName')
-data.setCell(3, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003')
-data.setCell(3, 3, 3160);
+data.setCell(3, 1, 'deleteComputerInfo')
+data.setCell(3, 2, 'com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001')
+data.setCell(3, 3, 8488);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'editComputerWithValidInput')
+data.setCell(4, 2, 'com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003')
+data.setCell(4, 3, 8336);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'editComputerInfo')
+data.setCell(5, 2, 'com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001')
+data.setCell(5, 3, 7555);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addComputerWithEmptyField')
+data.setCell(6, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001')
+data.setCell(6, 3, 6967);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'SearchComputerName')
+data.setCell(7, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003')
+data.setCell(7, 3, 4323);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'SearchComputerNewName')
+data.setCell(8, 2, 'com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003')
+data.setCell(8, 3, 4252);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchByValidInput')
+data.setCell(9, 2, 'com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002')
+data.setCell(9, 3, 1567);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'searchByEmptyField')
+data.setCell(10, 2, 'com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001')
+data.setCell(10, 3, 358);
 window.suiteTableData['ComputerDatabaseDemo']= { tableData: data, tableDiv: 'times-div-ComputerDatabaseDemo'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-ComputerDatabaseDemo">
               </div> <!-- times-div-ComputerDatabaseDemo -->
             </div> <!-- times-div -->
@@ -320,47 +504,145 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addComputerWithEmptyField</span>
-                <span class="method-start">4291 ms</span>
+                <span class="method-start">6238 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8078 ms</span>
+                <span class="method-start">13225 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">8944 ms</span>
+                <span class="method-start">14383 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addComputerWithInvalidInput</span>
-                <span class="method-start">12926 ms</span>
+                <span class="method-start">21738 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19803 ms</span>
+                <span class="method-start">32793 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">20657 ms</span>
+                <span class="method-start">34461 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addComputerWithValidInput</span>
-                <span class="method-start">25154 ms</span>
+                <span class="method-start">39663 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">SearchComputerName</span>
-                <span class="method-start">31784 ms</span>
+                <span class="method-start">52867 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34953 ms</span>
+                <span class="method-start">57197 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">57937 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteComputerInfo</span>
+                <span class="method-start">63442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71930 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">73159 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">editComputerInfo</span>
+                <span class="method-start">77799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85354 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">86041 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">editComputerWithInvalidInput</span>
+                <span class="method-start">90669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">100377 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">101586 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">editComputerWithValidInput</span>
+                <span class="method-start">106162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SearchComputerNewName</span>
+                <span class="method-start">114501 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118755 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">119519 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchByEmptyField</span>
+                <span class="method-start">124172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124531 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">125275 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchByValidInput</span>
+                <span class="method-start">129871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131438 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

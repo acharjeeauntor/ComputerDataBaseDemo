@@ -7,9 +7,15 @@
 	<test thread-count="5" name="ComputerDatabaseDemo Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-      <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001"/>
+      <!----><class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001"/>
       <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002"/>
       <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003"/>
+      <class name="com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001"/>  
+      <class name="com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001"/>
+      <class name="com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002"/>
+      <class name="com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003"/>
+      <class name="com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001"/>
+      <class name="com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

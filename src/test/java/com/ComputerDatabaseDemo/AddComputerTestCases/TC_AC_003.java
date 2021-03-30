@@ -5,15 +5,15 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.ComputerDatabaseDemo.pageObjects.AddComputerPages;
+import com.ComputerDatabaseDemo.pageObjects.AddComputerPage;
 import com.ComputerDatabaseDemo.pageObjects.ComputerListPage;
 
-public class TC_AC_003 extends BaseClass{
+public class TC_AC_003 extends BaseClassAC{
 	public String Cname="Auntor";
 	
 	@Test(priority=1)
 	public void addComputerWithValidInput() throws InterruptedException {
-		AddComputerPages ac = new AddComputerPages(driver);
+		AddComputerPage ac = new AddComputerPage(driver);
 		ac.clickNewComputer();
 		Thread.sleep(2000);
 		logger.info("Providing Input...");
