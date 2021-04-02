@@ -135,3 +135,25 @@
 2021-03-30 17:11:23,855 - ComputerDatabase -INFO - TC_FC_001 passed
 2021-03-30 17:11:29,194 - ComputerDatabase -INFO - URL is opened
 2021-03-30 17:11:30,761 - ComputerDatabase -INFO - TC_FC_002 passed
+2021-04-02 15:35:42,637 - ComputerDatabase -INFO - URL is opened
+2021-04-02 15:35:54,369 - ComputerDatabase -INFO - TC_AC_001 passed
+2021-04-02 15:36:00,610 - ComputerDatabase -INFO - URL is opened
+2021-04-02 15:36:06,331 - ComputerDatabase -INFO - Providing Input...
+2021-04-02 15:36:14,771 - ComputerDatabase -INFO - TC_AC_002 passed
+2021-04-02 15:36:22,834 - ComputerDatabase -INFO - URL is opened
+2021-04-02 15:36:30,734 - ComputerDatabase -INFO - Providing Input...
+2021-04-02 15:36:37,352 - ComputerDatabase -INFO - Validation Start...
+2021-04-02 15:36:41,755 - ComputerDatabase -INFO - TC_AC_003 failed
+2021-04-02 15:36:48,944 - ComputerDatabase -INFO - URL is opened
+2021-04-02 15:37:02,372 - ComputerDatabase -INFO - TC_DC_001 failed
+2021-04-02 15:37:09,692 - ComputerDatabase -INFO - URL is opened
+2021-04-02 15:37:22,560 - ComputerDatabase -WARN - TC_EC_001 Passed
+2021-04-02 15:37:29,517 - ComputerDatabase -INFO - URL is opened
+2021-04-02 15:37:47,154 - ComputerDatabase -INFO - TC_EC_002 passed
+2021-04-02 15:37:52,540 - ComputerDatabase -INFO - URL is opened
+2021-04-02 15:38:08,423 - ComputerDatabase -INFO - Validation Start...
+2021-04-02 15:38:15,870 - ComputerDatabase -INFO - TC_EC_003 failed
+2021-04-02 15:38:24,497 - ComputerDatabase -INFO - URL is opened
+2021-04-02 15:38:24,892 - ComputerDatabase -INFO - TC_FC_001 passed
+2021-04-02 15:38:31,275 - ComputerDatabase -INFO - URL is opened
+2021-04-02 15:38:34,582 - ComputerDatabase -INFO - TC_FC_002 passed

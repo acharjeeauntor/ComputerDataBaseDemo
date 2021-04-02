@@ -6,12 +6,14 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.ComputerDatabaseDemo.pageObjects.AddComputerPage;
+import com.ComputerDatabaseDemo.utilities.XLUtils;
 
-public class TC_AC_002 extends BaseClassAC{
-	public String invalidinput ="<script>alert(\"a\")</script>";
+public class TC_AC_002 extends BaseClass{
+	
 	
 	@Test(priority=1)
 	public void addComputerWithInvalidInput() throws InterruptedException, IOException {
+	String invalidinput =XLUtils.getCellData(excelPath, "sheet1", 5, 0);
 		AddComputerPage ac = new AddComputerPage(driver);
 		ac.clickNewComputer();
 		Thread.sleep(2000);

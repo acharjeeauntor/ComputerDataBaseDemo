@@ -1,22 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 133.892 sec <<< FAILURE! - in TestSuite
-SearchComputerName(com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003)  Time elapsed: 4.328 sec  <<< FAILURE!
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 186.785 sec <<< FAILURE! - in TestSuite
+SearchComputerName(com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003)  Time elapsed: 4.928 sec  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.fail(Assert.java:106)
-	at com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003.SearchComputerName(TC_AC_003.java:40)
+	at com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003.SearchComputerName(TC_AC_003.java:43)
 
-deleteComputerInfo(com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001)  Time elapsed: 8.488 sec  <<< FAILURE!
+deleteComputerInfo(com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001)  Time elapsed: 13.77 sec  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.fail(Assert.java:106)
-	at com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001.deleteComputerInfo(TC_DC_001.java:24)
+	at com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001.deleteComputerInfo(TC_DC_001.java:27)
 
-SearchComputerNewName(com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003)  Time elapsed: 4.254 sec  <<< FAILURE!
+SearchComputerNewName(com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003)  Time elapsed: 7.874 sec  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.fail(Assert.java:106)
-	at com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003.SearchComputerNewName(TC_EC_003.java:41)
+	at com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003.SearchComputerNewName(TC_EC_003.java:45)
 

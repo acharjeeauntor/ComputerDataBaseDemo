@@ -190,7 +190,7 @@
                   </a> <!-- SearchComputerNewName -->
                   <span class="method-name">SearchComputerNewName</span>
                   <div class="stack-trace">java.lang.AssertionError: null
-	at com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003.SearchComputerNewName(TC_EC_003.java:41)
+	at com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003.SearchComputerNewName(TC_EC_003.java:45)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -210,7 +210,7 @@
                   </a> <!-- deleteComputerInfo -->
                   <span class="method-name">deleteComputerInfo</span>
                   <div class="stack-trace">java.lang.AssertionError: null
-	at com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001.deleteComputerInfo(TC_DC_001.java:24)
+	at com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001.deleteComputerInfo(TC_DC_001.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -230,7 +230,7 @@
                   </a> <!-- SearchComputerName -->
                   <span class="method-name">SearchComputerName</span>
                   <div class="stack-trace">java.lang.AssertionError: null
-	at com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003.SearchComputerName(TC_AC_003.java:40)
+	at com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003.SearchComputerName(TC_AC_003.java:43)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -301,21 +301,6 @@
           <div class="suite-ComputerDatabaseDemo-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchByValidInput">
-                  </a> <!-- searchByValidInput -->
-                  <span class="method-name">searchByValidInput</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ComputerDatabaseDemo-class-passed -->
-          <div class="suite-ComputerDatabaseDemo-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -324,6 +309,21 @@
                   <a name="addComputerWithInvalidInput">
                   </a> <!-- addComputerWithInvalidInput -->
                   <span class="method-name">addComputerWithInvalidInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ComputerDatabaseDemo-class-passed -->
+          <div class="suite-ComputerDatabaseDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByValidInput">
+                  </a> <!-- searchByValidInput -->
+                  <span class="method-name">searchByValidInput</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -424,49 +424,49 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addComputerWithValidInput')
-data.setCell(0, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003')
-data.setCell(0, 3, 13203);
+data.setCell(0, 1, 'editComputerWithInvalidInput')
+data.setCell(0, 2, 'com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002')
+data.setCell(0, 3, 17637);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addComputerWithInvalidInput')
-data.setCell(1, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002')
-data.setCell(1, 3, 11054);
+data.setCell(1, 1, 'editComputerWithValidInput')
+data.setCell(1, 2, 'com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003')
+data.setCell(1, 3, 15805);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'editComputerWithInvalidInput')
-data.setCell(2, 2, 'com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002')
-data.setCell(2, 3, 9707);
+data.setCell(2, 1, 'addComputerWithValidInput')
+data.setCell(2, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003')
+data.setCell(2, 3, 14409);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'deleteComputerInfo')
-data.setCell(3, 2, 'com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001')
-data.setCell(3, 3, 8488);
+data.setCell(3, 1, 'addComputerWithInvalidInput')
+data.setCell(3, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002')
+data.setCell(3, 3, 14161);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'editComputerWithValidInput')
-data.setCell(4, 2, 'com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003')
-data.setCell(4, 3, 8336);
+data.setCell(4, 1, 'deleteComputerInfo')
+data.setCell(4, 2, 'com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001')
+data.setCell(4, 3, 13769);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'editComputerInfo')
 data.setCell(5, 2, 'com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001')
-data.setCell(5, 3, 7555);
+data.setCell(5, 3, 12867);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'addComputerWithEmptyField')
 data.setCell(6, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001')
-data.setCell(6, 3, 6967);
+data.setCell(6, 3, 11661);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'SearchComputerName')
-data.setCell(7, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003')
-data.setCell(7, 3, 4323);
+data.setCell(7, 1, 'SearchComputerNewName')
+data.setCell(7, 2, 'com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003')
+data.setCell(7, 3, 7873);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'SearchComputerNewName')
-data.setCell(8, 2, 'com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003')
-data.setCell(8, 3, 4252);
+data.setCell(8, 1, 'SearchComputerName')
+data.setCell(8, 2, 'com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003')
+data.setCell(8, 3, 4922);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'searchByValidInput')
 data.setCell(9, 2, 'com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002')
-data.setCell(9, 3, 1567);
+data.setCell(9, 3, 3305);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'searchByEmptyField')
 data.setCell(10, 2, 'com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001')
-data.setCell(10, 3, 358);
+data.setCell(10, 3, 394);
 window.suiteTableData['ComputerDatabaseDemo']= { tableData: data, tableDiv: 'times-div-ComputerDatabaseDemo'}
 return data;
 }
@@ -504,145 +504,145 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addComputerWithEmptyField</span>
-                <span class="method-start">6238 ms</span>
+                <span class="method-start">11994 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13225 ms</span>
+                <span class="method-start">23670 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">14383 ms</span>
+                <span class="method-start">24559 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addComputerWithInvalidInput</span>
-                <span class="method-start">21738 ms</span>
+                <span class="method-start">29894 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32793 ms</span>
+                <span class="method-start">44057 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">34461 ms</span>
+                <span class="method-start">44986 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addComputerWithValidInput</span>
-                <span class="method-start">39663 ms</span>
+                <span class="method-start">52119 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">SearchComputerName</span>
-                <span class="method-start">52867 ms</span>
+                <span class="method-start">66530 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">57197 ms</span>
+                <span class="method-start">71459 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">57937 ms</span>
+                <span class="method-start">72327 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">deleteComputerInfo</span>
-                <span class="method-start">63442 ms</span>
+                <span class="method-start">78229 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">71930 ms</span>
+                <span class="method-start">91999 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">73159 ms</span>
+                <span class="method-start">92850 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">editComputerInfo</span>
-                <span class="method-start">77799 ms</span>
+                <span class="method-start">98976 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">85354 ms</span>
+                <span class="method-start">111844 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">86041 ms</span>
+                <span class="method-start">112748 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">editComputerWithInvalidInput</span>
-                <span class="method-start">90669 ms</span>
+                <span class="method-start">118801 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">100377 ms</span>
+                <span class="method-start">136439 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">101586 ms</span>
+                <span class="method-start">137301 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">editComputerWithValidInput</span>
-                <span class="method-start">106162 ms</span>
+                <span class="method-start">141828 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">SearchComputerNewName</span>
-                <span class="method-start">114501 ms</span>
+                <span class="method-start">157635 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">118755 ms</span>
+                <span class="method-start">165510 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">119519 ms</span>
+                <span class="method-start">166356 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">searchByEmptyField</span>
-                <span class="method-start">124172 ms</span>
+                <span class="method-start">173781 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">124531 ms</span>
+                <span class="method-start">174176 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">125275 ms</span>
+                <span class="method-start">175527 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">searchByValidInput</span>
-                <span class="method-start">129871 ms</span>
+                <span class="method-start">180560 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">131438 ms</span>
+                <span class="method-start">183866 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

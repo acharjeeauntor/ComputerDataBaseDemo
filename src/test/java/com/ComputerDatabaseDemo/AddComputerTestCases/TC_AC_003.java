@@ -7,12 +7,14 @@ import org.testng.annotations.Test;
 
 import com.ComputerDatabaseDemo.pageObjects.AddComputerPage;
 import com.ComputerDatabaseDemo.pageObjects.ComputerListPage;
+import com.ComputerDatabaseDemo.utilities.XLUtils;
 
-public class TC_AC_003 extends BaseClassAC{
-	public String Cname="Auntor";
+public class TC_AC_003 extends BaseClass{
+	
 	
 	@Test(priority=1)
-	public void addComputerWithValidInput() throws InterruptedException {
+	public void addComputerWithValidInput() throws InterruptedException, IOException {
+		String Cname=XLUtils.getCellData(excelPath, "sheet1", 5, 2);
 		AddComputerPage ac = new AddComputerPage(driver);
 		ac.clickNewComputer();
 		Thread.sleep(2000);
@@ -28,6 +30,7 @@ public class TC_AC_003 extends BaseClassAC{
 	
 	@Test(priority=2)
 	public void SearchComputerName() throws InterruptedException, IOException {
+	 String Cname=XLUtils.getCellData(excelPath, "sheet1", 5, 2);
 		ComputerListPage cp = new ComputerListPage(driver);
 		logger.info("Validation Start...");
 		cp.setSearchInput(Cname);

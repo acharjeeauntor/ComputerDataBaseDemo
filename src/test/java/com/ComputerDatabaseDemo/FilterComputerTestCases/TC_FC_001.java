@@ -5,12 +5,13 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.ComputerDatabaseDemo.AddComputerTestCases.BaseClass;
 import com.ComputerDatabaseDemo.pageObjects.AddComputerPage;
 import com.ComputerDatabaseDemo.pageObjects.ComputerListPage;
 import com.ComputerDatabaseDemo.pageObjects.DeleteComputerPage;
 import com.ComputerDatabaseDemo.pageObjects.EditComputerPage;
 
-public class TC_FC_001 extends BaseClassFC{
+public class TC_FC_001 extends BaseClass{
 	String errorMsg = "Please fill out this field.";
 	
 	@Test(priority=1)

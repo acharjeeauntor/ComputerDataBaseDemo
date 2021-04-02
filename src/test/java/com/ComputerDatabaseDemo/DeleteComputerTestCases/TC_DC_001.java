@@ -5,14 +5,17 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.ComputerDatabaseDemo.AddComputerTestCases.BaseClass;
 import com.ComputerDatabaseDemo.pageObjects.AddComputerPage;
 import com.ComputerDatabaseDemo.pageObjects.DeleteComputerPage;
+import com.ComputerDatabaseDemo.utilities.XLUtils;
 
-public class TC_DC_001 extends BaseClassDC{
-	String cName = "ACE";
+public class TC_DC_001 extends BaseClass{
+	
 	
 	@Test(priority=1)
 	public void deleteComputerInfo() throws InterruptedException, IOException {
+		 String cName=XLUtils.getCellData(excelPath, "sheet1", 5, 1);
 		DeleteComputerPage dc = new DeleteComputerPage(driver);
 		dc.clickComputerName(cName);
 		Thread.sleep(2000);

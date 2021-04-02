@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="11" passed="8" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-30T17:09:19 BDT" name="ComputerDatabaseDemo" finished-at="2021-03-30T17:11:31 BDT" duration-ms="132439">
+  <suite started-at="2021-04-02T15:35:30 BDT" name="ComputerDatabaseDemo" finished-at="2021-04-02T15:38:35 BDT" duration-ms="185491">
     <groups>
     </groups>
-    <test started-at="2021-03-30T17:09:19 BDT" name="ComputerDatabaseDemo Test" finished-at="2021-03-30T17:11:31 BDT" duration-ms="132439">
+    <test started-at="2021-04-02T15:35:30 BDT" name="ComputerDatabaseDemo Test" finished-at="2021-04-02T15:38:35 BDT" duration-ms="185491">
       <class name="com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001@5606c0b]" started-at="2021-03-30T17:11:18 BDT" name="setUp" finished-at="2021-03-30T17:11:23 BDT" duration-ms="4653" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001@37574691]" started-at="2021-04-02T15:38:17 BDT" name="setUp" finished-at="2021-04-02T15:38:24 BDT" duration-ms="7425" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchByEmptyField()[pri:1, instance:com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001@5606c0b]" started-at="2021-03-30T17:11:23 BDT" name="searchByEmptyField" finished-at="2021-03-30T17:11:23 BDT" duration-ms="358" status="PASS">
+        <test-method signature="searchByEmptyField()[pri:1, instance:com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001@37574691]" started-at="2021-04-02T15:38:24 BDT" name="searchByEmptyField" finished-at="2021-04-02T15:38:24 BDT" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByEmptyField -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001@5606c0b]" started-at="2021-03-30T17:11:23 BDT" name="tearDown" finished-at="2021-03-30T17:11:24 BDT" duration-ms="743" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001@37574691]" started-at="2021-04-02T15:38:24 BDT" name="tearDown" finished-at="2021-04-02T15:38:26 BDT" duration-ms="1351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_001 -->
       <class name="com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001@37574691]" started-at="2021-03-30T17:10:32 BDT" name="setUp" finished-at="2021-03-30T17:10:37 BDT" duration-ms="4639" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001@3444d69d]" started-at="2021-04-02T15:37:03 BDT" name="setUp" finished-at="2021-04-02T15:37:09 BDT" duration-ms="6126" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,17 +39,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="editComputerInfo()[pri:1, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001@37574691]" started-at="2021-03-30T17:10:37 BDT" name="editComputerInfo" finished-at="2021-03-30T17:10:44 BDT" duration-ms="7555" status="PASS">
+        <test-method signature="editComputerInfo()[pri:1, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001@3444d69d]" started-at="2021-04-02T15:37:09 BDT" name="editComputerInfo" finished-at="2021-04-02T15:37:22 BDT" duration-ms="12867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editComputerInfo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001@37574691]" started-at="2021-03-30T17:10:44 BDT" name="tearDown" finished-at="2021-03-30T17:10:45 BDT" duration-ms="687" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001@3444d69d]" started-at="2021-04-02T15:37:22 BDT" name="tearDown" finished-at="2021-04-02T15:37:23 BDT" duration-ms="904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_001 -->
       <class name="com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002@25359ed8]" started-at="2021-03-30T17:10:45 BDT" name="setUp" finished-at="2021-03-30T17:10:49 BDT" duration-ms="4628" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002@1372ed45]" started-at="2021-04-02T15:37:23 BDT" name="setUp" finished-at="2021-04-02T15:37:29 BDT" duration-ms="6052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,81 +60,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="editComputerWithInvalidInput()[pri:1, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002@25359ed8]" started-at="2021-03-30T17:10:49 BDT" name="editComputerWithInvalidInput" finished-at="2021-03-30T17:10:59 BDT" duration-ms="9707" status="PASS">
+        <test-method signature="editComputerWithInvalidInput()[pri:1, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002@1372ed45]" started-at="2021-04-02T15:37:29 BDT" name="editComputerWithInvalidInput" finished-at="2021-04-02T15:37:47 BDT" duration-ms="17637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editComputerWithInvalidInput -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002@25359ed8]" started-at="2021-03-30T17:10:59 BDT" name="tearDown" finished-at="2021-03-30T17:11:00 BDT" duration-ms="1209" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002@1372ed45]" started-at="2021-04-02T15:37:47 BDT" name="tearDown" finished-at="2021-04-02T15:37:48 BDT" duration-ms="862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_002 -->
-      <class name="com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001@6a79c292]" started-at="2021-03-30T17:10:17 BDT" name="setUp" finished-at="2021-03-30T17:10:22 BDT" duration-ms="5504" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="deleteComputerInfo()[pri:1, instance:com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001@6a79c292]" started-at="2021-03-30T17:10:22 BDT" name="deleteComputerInfo" finished-at="2021-03-30T17:10:31 BDT" duration-ms="8488" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.fail(Assert.java:106)
-at com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001.deleteComputerInfo(TC_DC_001.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteComputerInfo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001@6a79c292]" started-at="2021-03-30T17:10:31 BDT" name="tearDown" finished-at="2021-03-30T17:10:32 BDT" duration-ms="1229" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001 -->
       <class name="com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003@21a947fe]" started-at="2021-03-30T17:11:00 BDT" name="setUp" finished-at="2021-03-30T17:11:05 BDT" duration-ms="4576" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003@6a79c292]" started-at="2021-04-02T15:37:48 BDT" name="setUp" finished-at="2021-04-02T15:37:52 BDT" duration-ms="4526" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,11 +81,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="editComputerWithValidInput()[pri:1, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003@21a947fe]" started-at="2021-03-30T17:11:05 BDT" name="editComputerWithValidInput" finished-at="2021-03-30T17:11:13 BDT" duration-ms="8336" status="PASS">
+        <test-method signature="editComputerWithValidInput()[pri:1, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003@6a79c292]" started-at="2021-04-02T15:37:52 BDT" name="editComputerWithValidInput" finished-at="2021-04-02T15:38:08 BDT" duration-ms="15805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editComputerWithValidInput -->
-        <test-method signature="SearchComputerNewName()[pri:2, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003@21a947fe]" started-at="2021-03-30T17:11:13 BDT" name="SearchComputerNewName" finished-at="2021-03-30T17:11:18 BDT" duration-ms="4252" status="FAIL">
+        <test-method signature="SearchComputerNewName()[pri:2, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003@6a79c292]" started-at="2021-04-02T15:38:08 BDT" name="SearchComputerNewName" finished-at="2021-04-02T15:38:16 BDT" duration-ms="7873" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -158,7 +94,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.fail(Assert.java:106)
-at com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003.SearchComputerNewName(TC_EC_003.java:41)
+at com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003.SearchComputerNewName(TC_EC_003.java:45)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -196,13 +132,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchComputerNewName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003@21a947fe]" started-at="2021-03-30T17:11:18 BDT" name="tearDown" finished-at="2021-03-30T17:11:18 BDT" duration-ms="763" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003@6a79c292]" started-at="2021-04-02T15:38:16 BDT" name="tearDown" finished-at="2021-04-02T15:38:17 BDT" duration-ms="845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003 -->
-      <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001@4ba2ca36]" started-at="2021-03-30T17:09:19 BDT" name="setUp" finished-at="2021-03-30T17:09:25 BDT" duration-ms="6224" status="PASS">
+      <class name="com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001@4ba2ca36]" started-at="2021-04-02T15:36:43 BDT" name="setUp" finished-at="2021-04-02T15:36:48 BDT" duration-ms="5901" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,74 +149,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addComputerWithEmptyField()[pri:1, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001@4ba2ca36]" started-at="2021-03-30T17:09:25 BDT" name="addComputerWithEmptyField" finished-at="2021-03-30T17:09:32 BDT" duration-ms="6967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addComputerWithEmptyField -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001@4ba2ca36]" started-at="2021-03-30T17:09:32 BDT" name="tearDown" finished-at="2021-03-30T17:09:33 BDT" duration-ms="1156" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001 -->
-      <class name="com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002@80ec1f8]" started-at="2021-03-30T17:11:24 BDT" name="setUp" finished-at="2021-03-30T17:11:29 BDT" duration-ms="4595" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="searchByValidInput()[pri:1, instance:com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002@80ec1f8]" started-at="2021-03-30T17:11:29 BDT" name="searchByValidInput" finished-at="2021-03-30T17:11:30 BDT" duration-ms="1567" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchByValidInput -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002@80ec1f8]" started-at="2021-03-30T17:11:30 BDT" name="tearDown" finished-at="2021-03-30T17:11:31 BDT" duration-ms="701" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002 -->
-      <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002@3444d69d]" started-at="2021-03-30T17:09:33 BDT" name="setUp" finished-at="2021-03-30T17:09:41 BDT" duration-ms="7354" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addComputerWithInvalidInput()[pri:1, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002@3444d69d]" started-at="2021-03-30T17:09:41 BDT" name="addComputerWithInvalidInput" finished-at="2021-03-30T17:09:52 BDT" duration-ms="11054" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addComputerWithInvalidInput -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002@3444d69d]" started-at="2021-03-30T17:09:52 BDT" name="tearDown" finished-at="2021-03-30T17:09:53 BDT" duration-ms="1668" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002 -->
-      <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003@1372ed45]" started-at="2021-03-30T17:09:53 BDT" name="setUp" finished-at="2021-03-30T17:09:58 BDT" duration-ms="5201" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addComputerWithValidInput()[pri:1, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003@1372ed45]" started-at="2021-03-30T17:09:58 BDT" name="addComputerWithValidInput" finished-at="2021-03-30T17:10:12 BDT" duration-ms="13203" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addComputerWithValidInput -->
-        <test-method signature="SearchComputerName()[pri:2, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003@1372ed45]" started-at="2021-03-30T17:10:12 BDT" name="SearchComputerName" finished-at="2021-03-30T17:10:16 BDT" duration-ms="4323" status="FAIL">
+        <test-method signature="deleteComputerInfo()[pri:1, instance:com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001@4ba2ca36]" started-at="2021-04-02T15:36:48 BDT" name="deleteComputerInfo" finished-at="2021-04-02T15:37:02 BDT" duration-ms="13769" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -289,7 +158,138 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.fail(Assert.java:106)
-at com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003.SearchComputerName(TC_AC_003.java:40)
+at com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001.deleteComputerInfo(TC_DC_001.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComputerInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001@4ba2ca36]" started-at="2021-04-02T15:37:02 BDT" name="tearDown" finished-at="2021-04-02T15:37:03 BDT" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001 -->
+      <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001@23bb8443]" started-at="2021-04-02T15:35:30 BDT" name="setUp" finished-at="2021-04-02T15:35:42 BDT" duration-ms="11983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addComputerWithEmptyField()[pri:1, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001@23bb8443]" started-at="2021-04-02T15:35:42 BDT" name="addComputerWithEmptyField" finished-at="2021-04-02T15:35:54 BDT" duration-ms="11661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComputerWithEmptyField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001@23bb8443]" started-at="2021-04-02T15:35:54 BDT" name="tearDown" finished-at="2021-04-02T15:35:55 BDT" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_001 -->
+      <class name="com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002@25359ed8]" started-at="2021-04-02T15:38:26 BDT" name="setUp" finished-at="2021-04-02T15:38:31 BDT" duration-ms="5032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchByValidInput()[pri:1, instance:com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002@25359ed8]" started-at="2021-04-02T15:38:31 BDT" name="searchByValidInput" finished-at="2021-04-02T15:38:34 BDT" duration-ms="3305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByValidInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002@25359ed8]" started-at="2021-04-02T15:38:34 BDT" name="tearDown" finished-at="2021-04-02T15:38:35 BDT" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ComputerDatabaseDemo.FilterComputerTestCases.TC_FC_002 -->
+      <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002@1176dcec]" started-at="2021-04-02T15:35:55 BDT" name="setUp" finished-at="2021-04-02T15:36:00 BDT" duration-ms="5335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addComputerWithInvalidInput()[pri:1, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002@1176dcec]" started-at="2021-04-02T15:36:00 BDT" name="addComputerWithInvalidInput" finished-at="2021-04-02T15:36:14 BDT" duration-ms="14161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComputerWithInvalidInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002@1176dcec]" started-at="2021-04-02T15:36:14 BDT" name="tearDown" finished-at="2021-04-02T15:36:15 BDT" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_002 -->
+      <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003@120d6fe6]" started-at="2021-04-02T15:36:15 BDT" name="setUp" finished-at="2021-04-02T15:36:22 BDT" duration-ms="7132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addComputerWithValidInput()[pri:1, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003@120d6fe6]" started-at="2021-04-02T15:36:22 BDT" name="addComputerWithValidInput" finished-at="2021-04-02T15:36:37 BDT" duration-ms="14409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComputerWithValidInput -->
+        <test-method signature="SearchComputerName()[pri:2, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003@120d6fe6]" started-at="2021-04-02T15:36:37 BDT" name="SearchComputerName" finished-at="2021-04-02T15:36:42 BDT" duration-ms="4922" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003.SearchComputerName(TC_AC_003.java:43)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -327,7 +327,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchComputerName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003@1372ed45]" started-at="2021-03-30T17:10:16 BDT" name="tearDown" finished-at="2021-03-30T17:10:17 BDT" duration-ms="739" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003@120d6fe6]" started-at="2021-04-02T15:36:42 BDT" name="tearDown" finished-at="2021-04-02T15:36:43 BDT" duration-ms="867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

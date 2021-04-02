@@ -10,8 +10,8 @@
       <class name="com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003">
         <methods>
           <include name="SearchComputerNewName"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- com.ComputerDatabaseDemo.EditComputerTestCases.TC_EC_003 -->
       <class name="com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001">
@@ -23,8 +23,8 @@
       </class> <!-- com.ComputerDatabaseDemo.DeleteComputerTestCases.TC_DC_001 -->
       <class name="com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
           <include name="SearchComputerName"/>
         </methods>
       </class> <!-- com.ComputerDatabaseDemo.AddComputerTestCases.TC_AC_003 -->

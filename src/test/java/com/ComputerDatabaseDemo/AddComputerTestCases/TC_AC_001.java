@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import com.ComputerDatabaseDemo.pageObjects.AddComputerPage;
 
-public class TC_AC_001 extends BaseClassAC{
+public class TC_AC_001 extends BaseClass{
 	
 	@Test(priority=1)
 	public void addComputerWithEmptyField() throws InterruptedException, IOException {

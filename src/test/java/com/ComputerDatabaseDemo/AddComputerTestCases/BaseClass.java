@@ -19,14 +19,15 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 import com.ComputerDatabaseDemo.utilities.ReadConfig;
+import com.ComputerDatabaseDemo.utilities.XLUtils;
 
 
 
-public class BaseClassAC {
+public class BaseClass {
 
 	static ReadConfig readConfig = new ReadConfig();
 
-	public String baseUrl = readConfig.getApplicationUrl();
+	public static String excelPath = readConfig.getExcelPath();
 	
 
 	public static WebDriver driver;
@@ -34,7 +35,8 @@ public class BaseClassAC {
 
 	@Parameters("browser")
 	@BeforeClass
-	public void setUp(String br) {
+	public void setUp(String br) throws IOException {
+		String baseUrl = XLUtils.getCellData(excelPath, "sheet1", 2, 1);
 		logger = Logger.getLogger("ComputerDatabase");
 		PropertyConfigurator.configure("Log4j.properties");
 

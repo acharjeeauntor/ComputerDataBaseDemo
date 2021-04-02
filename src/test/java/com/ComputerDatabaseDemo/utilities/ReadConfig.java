@@ -19,11 +19,6 @@ public class ReadConfig {
 		}
 	}
 	
-	public String getApplicationUrl() {
-		String url  = pro.getProperty("baseUrl");
-		return url;
-	}
-	
 	
 	public String getChromePath() {
 		String chromePath  = pro.getProperty("chromepath");
@@ -38,6 +33,11 @@ public class ReadConfig {
 	public String getIePath() {
 		String iePath  = pro.getProperty("iepath");
 		return iePath;
+	}
+	
+	public String getExcelPath() {
+		String excelpath  = pro.getProperty("excelPath");
+		return excelpath;
 	}
 	
 }
